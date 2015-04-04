@@ -1,0 +1,8 @@
+<div><img src="http://upload.wikimedia.org/wikipedia/commons/0/03/Baya_Weaver.svg" width=100%;/>
+<a href="welcome.html">Travelling Rogue's</br>
+Travel Compendium</a>
+<table id="menuTable">
+{{#menuOptions}}
+<tr><td class="menuLink"><a href="sections.html" class="sideLink">{{name}}</a><hr></td></tr> 
+{{/menuOptions}}
+</table></div>

@@ -1,0 +1,17 @@
+<div id="pageTitle">{{title}}</div>
+<hr></hr>
+<div id="pageDescription"> {{description}}</div>
+<table id="dataTable">
+<tr id="dataTitles"> 
+	<td>{{dataKey}}</td>
+	<td>{{dataDescriptor}}</td>
+</tr>
+
+
+{{#dataPoints}}
+<tr> 
+	<td>{{name}}</td>
+	<td>{{data}}</td>
+</tr>
+{{/dataPoints}}
+</table>

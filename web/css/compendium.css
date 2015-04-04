@@ -1,0 +1,188 @@
+/*NAVIGATION CSS*/
+#navBar {
+	background-color: #DBB84D;
+	width: 175px;
+
+	height:100%;
+		
+	top:0;
+	left:0;
+	position:absolute;
+	text-align:center;
+	padding-top:35px;
+		padding-right:10px;
+	padding-left:10px;
+	
+
+
+}
+
+.sideLink {
+	text-decoration:none;
+	font-size:1.4em;
+	width:auto;
+	color:black;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+.menuLink {
+	padding:20px;
+
+
+}
+
+
+.menuLink :hover {
+	background-color:#EDDCA6;
+	height:20px;
+	width:60px;
+
+
+
+}
+
+#menuTable {
+	margin-top:20px;
+	text-align:center;
+
+
+
+}
+/*PAGE SETUP*/
+#wrapper {
+	min-height:800px;
+	position:relative;
+
+
+}
+#pageTitle {
+	min-height:120px;
+	font-size:5em;
+	margin-top:20px;
+	margin-left:15px;
+
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+
+}
+
+
+#pageTypeContent {
+	margin-left:190px;
+	padding:10px;
+	padding-bottom:80px;
+	
+
+
+}
+
+#pageDescription {
+	margin-left:15px;
+}
+
+
+#dataTitles {
+	font-size:1.6em;
+
+
+}
+#dataTable {
+	
+	width: 90%;
+	padding: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	font-size: 1.4em;
+	background-color: #EDDCA6;
+	text-align:center;
+	border-radius:12px;
+}
+
+#footer{
+	bottom:0px;
+	margin-top:100px;
+	height:20px;
+}
+
+
+/* SECTION SPECIFIC CSS */
+
+.sectionContainer {
+	text-align:center;
+	float:left;
+	margin-top:50px;
+
+
+}
+.sectionBlock {
+	width:200px;
+	height:200px;
+	background-color:#66B9D4;
+	margin:10px;
+	float:left;
+	text-align:center;
+	border-radius:12px;
+	
+}
+
+#sectionContainer :hover{
+	background-color:#5294AA;
+	
+}
+
+.sectionText {
+	font-size:2em;
+	color:white;
+	margin-top:80px;
+
+
+}
+
+
+/* ARTICLE SPECIFIC CSS*/
+#articleIntro {
+	font-style:italic;
+	text-align:center;
+	margin-top:10px;
+	font-size:1.2em;
+}
+
+
+#articleText {
+	padding:55px;
+	height:50px;
+
+}
+
+
+.articleTitle {
+	font-size:1.8em;
+	margin-left:25px;
+	padding:5px;
+	margin-bottom:10px;
+	width:100%;
+	
+}
+
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+
+.articleTitle:hover {
+	background-color:#66B9D4;
+	
+}
+
+
+

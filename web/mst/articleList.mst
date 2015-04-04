@@ -1,0 +1,10 @@
+<div id="pageTitle">{{title}}</div>
+<hr></hr>
+{{#articleList}}
+
+<div class="articleTitle"><a href="article.html">{{name}}</a></div>
+
+{{/articleList}}
+
+
+ 

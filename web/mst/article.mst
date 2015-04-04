@@ -1,0 +1,26 @@
+<div id="pageTitle">{{title}}</div>
+<hr></hr>
+<div id="articleIntro">{{intro}}</div>
+
+<div id="articleText"></div>
+
+<script>
+	var Request = new XMLHttpRequest();
+	
+	function openAndRead() {
+		Request.open('get', 'text/{{page}}', true); 
+		Request.onreadystatechange = change;
+		Request.send(null);
+	}
+
+	function change() {
+		if(Request.readyState==4) {
+		var content = document.getElementById('articleText');
+		content.innerHTML = Request.responseText;
+	}
+	
+	}
+	
+	openAndRead();
+</script>
+ 

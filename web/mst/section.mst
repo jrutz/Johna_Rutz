@@ -1,0 +1,34 @@
+<div id="pageTitle">{{title}}</div>
+<hr></hr>
+
+<div class="sectionContainer">
+<h2>Articles</h2>
+	{{#sections}}
+	<a href="articleList.html">
+	<div class="sectionBlock">
+		<div class="sectionText">{{name}}
+		</div>
+	</div>
+	</a>
+	
+	
+	{{/sections}}
+
+
+</div>
+
+<div class="sectionContainer">
+<h2>References</h2>
+	{{#sections}}
+	<a href="reference.html">
+	<div class="sectionBlock">
+		<div class="sectionText">{{name}}
+		</div>
+	</div>
+	</a>
+	
+	
+	{{/sections}}
+
+
+</div>
