@@ -1,0 +1,6 @@
+<div id="loginForm">
+	Or <a href="#" onclick="loadCreateAccount()">Create an Account</a><br></br>
+	<input type="text" placeholder="USERNAME" id="uname" class="input"></input>
+	<input type="text" placeholder="FAVORITE COLOR" id="color" class="input"></input><br></br>
+	<button class="button" id= "userCreate" onClick="retrieveUser()">LOGIN</button>
+</div>

@@ -1,8 +1,21 @@
-<div><img src="http://upload.wikimedia.org/wikipedia/commons/0/03/Baya_Weaver.svg" width=100%;/>
-<a href="welcome.html">Travelling Rogue's</br>
-Travel Compendium</a>
+<div id="navBar">
+<a href="welcome.html">
+	<div id="mainTitle1">
+Travelling Rogue's
+</div>
+<div id="mainTitle2">
+Travel Compendium
+</div>
+
+</a>
+
+
+
 <table id="menuTable">
 {{#menuOptions}}
-<tr><td class="menuLink"><a href="sections.html" class="sideLink">{{name}}</a><hr></td></tr> 
+<td class="menuLink"><a href="{{href}}" class="sideLink">{{name}}</a></td> 
 {{/menuOptions}}
 </table></div>
+
+
+</div>

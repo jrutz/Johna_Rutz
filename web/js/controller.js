@@ -1,3 +1,4 @@
+
 function loadMain() {
 	getNavData();
 	$.get('mst/mainpage.mst', function(template) {
@@ -42,7 +43,7 @@ function loadContent() {
 
 
 function loadSections() {
-	getSectionData();
+	getSectionData('Preparation');
 	$.get('mst/section.mst', function(template) {
 	var loadThis = Mustache.render(template, sectionData);
 	$('#pageTypeContent').html(loadThis);
@@ -69,3 +70,37 @@ function loadArticleList() {
 	
 	}
 )}
+
+
+function loadCreateAccount() {
+
+	$.get('mst/loginForm.mst', function(template) {
+	var loadThis = Mustache.render(template);
+	$('#pageTypeContent').html(loadThis);
+	
+	}
+)}
+
+
+function loadLogin () {
+
+	$.get('mst/loginPage.mst', function(template) {
+	var loadThis = Mustache.render(template);
+	$('#pageTypeContent').html(loadThis);
+	}
+)
+
+
+}
+
+
+function loadLoggedInContent () {
+	
+	$.get('mst/stories.mst', function(template) {
+	var loadThis = Mustache.render(template);
+	$('#pageTypeContent').html(loadThis);	
+		}
+	)
+	
+	viewFriends();
+}

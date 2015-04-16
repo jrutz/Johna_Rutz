@@ -1,4 +1,5 @@
-<div id="pageTitle">{{title}}</div>
+
+<div id="pageTitle">{{sectionName}}</div>
 <hr></hr>
 
 <div class="sectionContainer">

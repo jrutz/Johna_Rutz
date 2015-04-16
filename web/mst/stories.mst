@@ -1,0 +1,27 @@
+<div style="text-align:center;">
+	<img src="https://belx.files.wordpress.com/2011/01/travellingcat.jpg?w=500"/><br></br>
+	<button class="button" id="userDelete" onClick="deleteUser()">DELETE ACCOUNT</button>
+	<button class="button" id="userDelete" onClick="logoutUser()">LOGOUT</button>
+	<br></br>
+	<h2>Made Friends Abroad?</h2>
+	<input type="text" placeholder="name" id="uname" class="input"></input>
+	<input type="text" placeholder="country" id="country" class="input"></input>
+	<input type="text" placeholder="email" id="email" class="input"></input>
+	<br></br>
+	<button class="button" id="saveFriend" onClick="saveFriend()">SAVE INFO</button>
+	
+	
+	<br></br>
+	<h2>Change Contact Info Of Friend</h2>
+	<div id="friendDrop">
+	</div>
+	<input type="text" class="input" id="changedEmail" placeholder="new email address"></input>
+	<button class="button" id="saveFriend" onClick="editFriendInfo()">EDIT INFO</button>
+	<div id="listOfFriends">
+	<h2>Look At All Your Friends (Click name to email them)</h2>
+	<div id="friendList">
+	</div>
+	
+	</div>
+</div>
+

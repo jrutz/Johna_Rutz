@@ -1,3 +1,4 @@
+
 var visaData = new Object();
 var navData = new Object();
 var sectionData = new Object();
@@ -51,15 +52,18 @@ Request.onreadystatechange = function () {
 };
 
 	Request.send(JSON.stringify(body));
+	
+
+
 }		
 				
 				
 
 	
 	
-function getSectionData() {
+function getSectionData(sectionName) {
 var Request = new XMLHttpRequest();
-url = 'http://private-0743c-travellingrogue.apiary-mock.com/section';
+url = 'http://private-0743c-travellingrogue.apiary-mock.com/section/'+sectionName;
 
 Request.open('GET', url, false);
 Request.onreadystatechange = function () {
@@ -69,6 +73,7 @@ Request.onreadystatechange = function () {
   
     
     sectionData = JSON.parse(this.responseText);
+ 
   
     
   }
